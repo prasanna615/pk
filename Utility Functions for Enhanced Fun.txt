@@ -1,0 +1,188 @@
+// Utility Functions for Enhanced Functionality
+
+// Debounce function for performance optimization
+function debounce(func, wait, immediate) {
+    let timeout;
+    return function executedFunction(...args) {
+        const later = () => {
+            timeout = null;
+            if (!immediate) func(...args);
+        };
+        const callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func(...args);
+    };
+}
+
+// Throttle function for scroll events
+function throttle(func, limit) {
+    let inThrottle;
+    return function() {
+        const args = arguments;
+        const context = this;
+        if (!inThrottle) {
+            func.apply(context, args);
+            inThrottle = true;
+            setTimeout(() => inThrottle = false, limit);
+        }
+    }
+}
+
+// Generate random particles for enhanced visual effect
+function generateRandomParticles() {
+    const particleCount = 5;
+    for (let i = 0; i < particleCount; i++) {
+        setTimeout(() => {
+            const x = Math.random() * window.innerWidth;
+            const y = Math.random() * window.innerHeight;
+            createParticle(x, y);
+        }, i * 200);
+    }
+}
+
+// Enhanced section visibility tracking
+function trackSectionVisibility() {
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    
+    const observerOptions = {
+        threshold: 0.3,
+        rootMargin: '-100px 0px -100px 0px'
+    };
+    
+    const sectionObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const sectionId = entry.target.getAttribute('id');
+                
+                // Update active navigation link
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${sectionId}`) {
+                        link.classList.add('active');
+                    }
+                });
+                
+                // Add view tracking
+                console.log(`Section viewed: ${sectionId}`);
+            }
+        });
+    }, observerOptions);
+    
+    sections.forEach(section => sectionObserver.observe(section));
+}
+
+// Enhanced skill search functionality
+function initializeSkillSearch() {
+    const searchInput = document.createElement('input');
+    searchInput.type = 'text';
+    searchInput.placeholder = 'Search skills...';
+    searchInput.className = 'skill-search';
+    searchInput.style.cssText = `
+        width: 100%;
+        max-width: 400px;
+        padding: 1rem;
+        margin: 2rem auto;
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        border-radius: 25px;
+        color: white;
+        font-size: 1rem;
+        text-align: center;
+        backdrop-filter: blur(20px);
+    `;
+    
+    const skillsSection = document.querySelector('#skills .container');
+    if (skillsSection) {
+        skillsSection.insertBefore(searchInput, skillsSection.querySelector('.skills-grid'));
+        
+        searchInput.addEventListener('input', debounce((e) => {
+            const searchTerm = e.target.value.toLowerCase();
+            const skillTags = document.querySelectorAll('.skill-tag');
+            
+            skillTags.forEach(tag => {
+                const skillText = tag.textContent.toLowerCase();
+                const skillCategory = tag.closest('.skill-category');
+                
+                if (skillText.includes(searchTerm)) {
+                    tag.style.opacity = '1';
+                    tag.style.transform = 'scale(1)';
+                } else {
+                    tag.style.opacity = '0.3';
+                    tag.style.transform = 'scale(0.95)';
+                }
+            });
+        }, 300));
+    }
+}
+
+// Performance monitoring
+function monitorPerformance() {
+    if ('performance' in window) {
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                const perfData = performance.timing;
+                const loadTime = perfData.loadEventEnd - perfData.navigationStart;
+                console.log(`Page load time: ${loadTime}ms`);
+                
+                // Performance optimization suggestions
+                if (loadTime > 3000) {
+                    console.warn('Page load time is high. Consider optimizing images and reducing JavaScript.');
+                }
+            }, 0);
+        });
+    }
+}
+
+// Error handling and logging
+function initializeErrorHandling() {
+    window.addEventListener('error', (e) => {
+        console.error('JavaScript Error:', {
+            message: e.message,
+            filename: e.filename,
+            lineno: e.lineno,
+            colno: e.colno,
+            error: e.error
+        });
+    });
+    
+    window.addEventListener('unhandledrejection', (e) => {
+        console.error('Unhandled Promise Rejection:', e.reason);
+    });
+}
+
+// Progressive enhancement checker
+function checkBrowserSupport() {
+    const features = {
+        intersectionObserver: 'IntersectionObserver' in window,
+        customProperties: CSS.supports('color', 'var(--test)'),
+        gridLayout: CSS.supports('display', 'grid'),
+        backdropFilter: CSS.supports('backdrop-filter', 'blur(10px)')
+    };
+    
+    console.log('Browser Feature Support:', features);
+    
+    // Fallback for older browsers
+    if (!features.intersectionObserver) {
+        console.warn('IntersectionObserver not supported. Using fallback scroll detection.');
+        // Implement scroll-based visibility detection
+        window.addEventListener('scroll', throttle(() => {
+            // Fallback scroll detection logic
+        }, 100));
+    }
+}
+
+// Initialize all utility functions
+function initializeUtilities() {
+    trackSectionVisibility();
+    initializeSkillSearch();
+    monitorPerformance();
+    initializeErrorHandling();
+    checkBrowserSupport();
+    
+    // Generate some initial particles for visual appeal
+    setTimeout(() => {
+        generateRandomParticles();
+    }, 1000);
+}

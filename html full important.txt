@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragavendra Prasanna P.K - Cybersecurity Professional</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div class="bg-animation">
+        <div class="floating-shapes">
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+        </div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo">Ragavendra Prasanna P.K</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#lab">Lab</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Ragavendra Prasanna P.K</h1>
+            <p class="subtitle">Digital Forensic Analyst | Cybersecurity Professional | Threat Hunter</p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="profile-image">🛡️</div>
+                <div class="about-text">
+                    <p>I am a motivated and detail-oriented graduate in Cyber Forensics and Information Security with hands-on experience in security tools and networking fundamentals. With professional experience as a Digital Forensic Analyst at FDI LABS, I have collaborated with government agencies including the Income Tax Department and Enforcement Directorate during raids to identify, extract, and preserve digital evidence.</p>
+                    
+                    <p>My expertise spans digital forensics, vulnerability assessment, penetration testing, and incident response. I have utilized advanced forensic tools like FTK Imager, Autopsy, and various steganography tools for comprehensive data acquisition and analysis. I maintain strong analytical skills and am committed to protecting digital infrastructures through continuous learning and professional excellence.</p>
+                    
+                    <p>Currently pursuing advanced cybersecurity training with GenAI through NIIT, I stay current with emerging threats and cutting-edge defensive strategies. I am passionate about handling real-world digital investigations and contributing to the cybersecurity community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2>Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">🎓</div>
+                    <h3>Digital Forensics Certification</h3>
+                    <p>Advanced certification in digital forensics and incident response techniques</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">🔒</div>
+                    <h3>Cybersecurity with GenAI</h3>
+                    <p>Comprehensive cybersecurity training program through NIIT</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">🛡️</div>
+                    <h3>Cyber Forensics & Information Security</h3>
+                    <p>Graduate degree specialization in cyber forensics and information security</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">⚡</div>
+                    <h3>Penetration Testing</h3>
+                    <p>Professional certification in ethical hacking and penetration testing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Digital Forensics</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag" data-skill="ftk-imager">FTK Imager</span>
+                        <span class="skill-tag" data-skill="autopsy">Autopsy</span>
+                        <span class="skill-tag" data-skill="recuva">Recuva</span>
+                        <span class="skill-tag" data-skill="disk-imaging">Disk Imaging</span>
+                        <span class="skill-tag" data-skill="hash-verification">Hash Verification</span>
+                        <span class="skill-tag" data-skill="chain-of-custody">Chain of Custody</span>
+                        <span class="skill-tag" data-skill="steganography">Steganography</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Penetration Testing</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag" data-skill="nmap">Nmap</span>
+                        <span class="skill-tag" data-skill="wireshark">Wireshark</span>
+                        <span class="skill-tag" data-skill="burp-suite">Burp Suite</span>
+                        <span class="skill-tag" data-skill="metasploit">Metasploit</span>
+                        <span class="skill-tag" data-skill="hydra">Hydra</span>
+                        <span class="skill-tag" data-skill="john-the-ripper">John the Ripper</span>
+                        <span class="skill-tag" data-skill="sqlmap">SQLmap</span>
+                        <span class="skill-tag" data-skill="social-engineering">Social Engineering</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Security & Monitoring</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag" data-skill="wazuh-siem">Wazuh SIEM</span>
+                        <span class="skill-tag" data-skill="splunk">Splunk</span>
+                        <span class="skill-tag" data-skill="openvas">OpenVAS</span>
+                        <span class="skill-tag" data-skill="vulnerability-assessment">Vulnerability Assessment</span>
+                        <span class="skill-tag" data-skill="threat-hunting">Threat Hunting</span>
+                        <span class="skill-tag" data-skill="incident-response">Incident Response</span>
+                        <span class="skill-tag" data-skill="log-analysis">Log Analysis</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Frameworks & Cloud</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag" data-skill="owasp-top-10">OWASP Top 10</span>
+                        <span class="skill-tag" data-skill="mitre-attack">MITRE ATT&CK</span>
+                        <span class="skill-tag" data-skill="nist-framework">NIST Framework</span>
+                        <span class="skill-tag" data-skill="iso-27001">ISO 27001</span>
+                        <span class="skill-tag" data-skill="aws-security">AWS Security</span>
+                        <span class="skill-tag" data-skill="azure-security">Azure Security</span>
+                        <span class="skill-tag" data-skill="gcp-security">GCP Security</span>
+                        <span class="skill-tag" data-skill="compliance">Compliance & Auditing</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Programming & Scripting</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag" data-skill="python">Python</span>
+                        <span class="skill-tag" data-skill="bash">Bash Scripting</span>
+                        <span class="skill-tag" data-skill="powershell">PowerShell</span>
+                        <span class="skill-tag" data-skill="sql">SQL</span>
+                        <span class="skill-tag" data-skill="regex">Regular Expressions</span>
+                        <span class="skill-tag" data-skill="automation">Security Automation</span>
+                        <span class="skill-tag" data-skill="apis">API Security</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Network & Infrastructure</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag" data-skill="tcp-ip">TCP/IP</span>
+                        <span class="skill-tag" data-skill="dns">DNS Security</span>
+                        <span class="skill-tag" data-skill="firewall">Firewall Management</span>
+                        <span class="skill-tag" data-skill="ids-ips">IDS/IPS</span>
+                        <span class="skill-tag" data-skill="vpn">VPN Configuration</span>
+                        <span class="skill-tag" data-skill="network-analysis">Network Analysis</span>
+                        <span class="skill-tag" data-skill="packet-capture">Packet Capture</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Digital Evidence Recovery System</h3>
+                    <p>Developed a comprehensive digital forensics workflow system for law enforcement agencies. Implemented automated evidence acquisition, hash verification, and chain of custody documentation. Successfully recovered critical evidence from damaged storage devices during multiple high-profile investigations.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">FTK Imager</span>
+                        <span class="tech-tag">Autopsy</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Hash Verification</span>
+                        <span class="tech-tag">Chain of Custody</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Advanced Threat Detection Lab</h3>
+                    <p>Built a comprehensive cybersecurity lab environment for threat hunting and malware analysis. Integrated multiple SIEM solutions, honeypots, and sandboxed environments for safe malware detonation. Developed custom detection rules and automated incident response workflows.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Wazuh SIEM</span>
+                        <span class="tech-tag">Splunk</span>
+                        <span class="tech-tag">VMware</span>
+                        <span class="tech-tag">Wireshark</span>
+                        <span class="tech-tag">YARA Rules</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Penetration Testing Framework</h3>
+                    <p>Created an automated penetration testing framework for vulnerability assessment and security auditing. Integrated multiple security tools and developed custom scripts for comprehensive network reconnaissance, vulnerability scanning, and exploitation testing.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Nmap</span>
+                        <span class="tech-tag">Metasploit</span>
+                        <span class="tech-tag">Burp Suite</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Bash Scripting</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Incident Response Automation</h3>
+                    <p>Designed and implemented an automated incident response system that reduces response time by 75%. Integrated threat intelligence feeds, automated evidence collection, and real-time alert correlation. Deployed across multiple enterprise environments.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">SOAR Platform</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">API Integration</span>
+                        <span class="tech-tag">Threat Intelligence</span>
+                        <span class="tech-tag">PowerShell</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Cloud Security Assessment Tool</h3>
+                    <p>Developed a comprehensive cloud security assessment tool for AWS, Azure, and GCP environments. Performs automated security configuration reviews, compliance checks, and generates detailed security reports with remediation recommendations.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">AWS CLI</span>
+                        <span class="tech-tag">Azure PowerShell</span>
+                        <span class="tech-tag">GCP SDK</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">JSON/YAML</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Steganography Detection Suite</h3>
+                    <p>Built advanced steganography detection and analysis tools for digital forensics investigations. Capable of detecting hidden data in images, audio files, and documents. Successfully identified covert communication channels in multiple criminal investigations.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Steganalysis</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Image Processing</span>
+                        <span class="tech-tag">Cryptography</span>
+                        <span class="tech-tag">Digital Forensics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="lab" class="section">
+        <div class="container">
+            <h2>Cybersecurity Lab</h2>
+            <div class="lab-content">
+                <div class="lab-overview">
+                    <h3>Lab Environment Overview</h3>
+                    <p>My personal cybersecurity lab serves as a controlled environment for security research, vulnerability testing, and skill development. The lab includes multiple virtualized networks, threat simulation capabilities, and comprehensive monitoring systems.</p>
+                    
+                    <h4>Key Features:</h4>
+                    <ul style="margin-top: 1rem; padding-left: 2rem;">
+                        <li>Isolated network segments for safe testing</li>
+                        <li>Multiple operating systems and vulnerable applications</li>
+                        <li>Real-time threat monitoring and analysis</li>
+                        <li>Automated malware analysis sandbox</li>
+                        <li>Digital forensics workstation with specialized tools</li>
+                        <li>Penetration testing arsenal and custom scripts</li>
+                    </ul>
+                </div>
+                
+                <div class="lab-overview">
+                    <h3>Research & Development</h3>
+                    <p>Continuous research into emerging threats, attack vectors, and defensive strategies. Regular participation in CTF competitions and vulnerability research programs.</p>
+                    
+                    <h4>Current Research Areas:</h4>
+                    <ul style="margin-top: 1rem; padding-left: 2rem;">
+                        <li>AI-powered threat detection and response</li>
+                        <li>Advanced persistent threat (APT) analysis</li>
+                        <li>Zero-day vulnerability research</li>
+                        <li>Blockchain and cryptocurrency forensics</li>
+                        <li>IoT security and embedded systems</li>
+                        <li>Mobile device forensics and security</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="lab-tabs">
+                <button class="tab-button active" onclick="showTab('tools')">Security Tools</button>
+                <button class="tab-button" onclick="showTab('environments')">Lab Environments</button>
+                <button class="tab-button" onclick="showTab('experiments')">Current Experiments</button>
+                <button class="tab-button" onclick="showTab('achievements')">Achievements</button>
+            </div>
+            
+            <div id="tools" class="tab-content active">
+                <h3>Security Tools Arsenal</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 2rem;">
+                    <div>
+                        <h4 style="color: var(--neon-green); margin-bottom: 1rem;">Digital Forensics</h4>
+                        <ul style="padding-left: 1.5rem;">
+                            <li>FTK Imager & Forensic Toolkit</li>
+                            <li>Autopsy Digital Forensics Platform</li>
+                            <li>Volatility Memory Analysis</li>
+                            <li>Sleuth Kit & Timeline Analysis</li>
+                            <li>Recuva & PhotoRec Recovery</li>
+                            <li>Hex Workshop & HxD</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 style="color: var(--neon-blue); margin-bottom: 1rem;">Penetration Testing</h4>
+                        <ul style="padding-left: 1.5rem;">
+                            <li>Kali Linux & Parrot Security OS</li>
+                            <li>Metasploit Framework</li>
+                            <li>Burp Suite Professional</li>
+                            <li>Nmap Network Discovery</li>
+                            <li>Wireshark Protocol Analyzer</li>
+                            <li>John the Ripper & Hashcat</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 style="color: var(--neon-pink); margin-bottom: 1rem;">SIEM & Monitoring</h4>
+                        <ul style="padding-left: 1.5rem;">
+                            <li>Wazuh SIEM Platform</li>
+                            <li>Splunk Enterprise Security</li>
+                            <li>ELK Stack (Elasticsearch, Logstash, Kibana)</li>
+                            <li>OSSEC Host-based IDS</li>
+                            <li>Snort Network IDS</li>
+                            <li>Nagios Network Monitoring</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="environments" class="tab-content">
+                <h3>Laboratory Environments</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; margin-top: 2rem;">
+                    <div style="background: var(--glass-bg); padding: 1.5rem; border-radius: 15px; border: 1px solid var(--glass-border);">
+                        <h4 style="color: var(--neon-green);">Forensics Lab</h4>
+                        <p>Dedicated digital forensics workstation with write-blockers, multiple storage interfaces, and specialized imaging equipment. Configured for handling evidence from various digital devices while maintaining chain of custody.</p>
+                    </div>
+                    <div style="background: var(--glass-bg); padding: 1.5rem; border-radius: 15px; border: 1px solid var(--glass-border);">
+                        <h4 style="color: var(--neon-blue);">Penetration Testing Range</h4>
+                        <p>Isolated network environment with intentionally vulnerable systems including DVWA, Metasploitable, and custom-built vulnerable applications for practicing ethical hacking techniques.</p>
+                    </div>
+                    <div style="background: var(--glass-bg); padding: 1.5rem; border-radius: 15px; border: 1px solid var(--glass-border);">
+                        <h4 style="color: var(--neon-pink);">Malware Analysis Sandbox</h4>
+                        <p>Completely isolated environment for safe malware detonation and analysis. Includes behavioral analysis tools, network monitoring, and automated reporting systems.</p>
+                    </div>
+                    <div style="background: var(--glass-bg); padding: 1.5rem; border-radius: 15px; border: 1px solid var(--glass-border);">
+                        <h4 style="color: var(--neon-green);">SOC Simulation</h4>
+                        <p>Simulated Security Operations Center with multiple monitoring dashboards, incident response workflows, and threat intelligence integration for hands-on SOC analyst training.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="experiments" class="tab-content">
+                <h3>Current Research & Experiments</h3>
+                <div style="margin-top: 2rem;">
+                    <div style="background: var(--glass-bg); padding: 2rem; border-radius: 15px; border: 1px solid var(--glass-border); margin-bottom: 2rem;">
+                        <h4 style="color: var(--neon-green);">AI-Enhanced Threat Detection</h4>
+                        <p>Developing machine learning models for advanced threat detection using behavioral analysis and anomaly detection techniques. Currently training models on network traffic patterns and system call sequences.</p>
+                        <div style="margin-top: 1rem;">
+                            <span style="background: rgba(57, 255, 20, 0.2); padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">In Progress</span>
+                        </div>
+                    </div>
+                    <div style="background: var(--glass-bg); padding: 2rem; border-radius: 15px; border: 1px solid var(--glass-border); margin-bottom: 2rem;">
+                        <h4 style="color: var(--neon-blue);">Cryptocurrency Forensics</h4>
+                        <p>Research into blockchain analysis techniques for cryptocurrency investigations. Developing tools for transaction tracing, wallet clustering, and identifying illicit cryptocurrency flows.</p>
+                        <div style="margin-top: 1rem;">
+                            <span style="background: rgba(0, 245, 255, 0.2); padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">Research Phase</span>
+                        </div>
+                    </div>
+                    <div style="background: var(--glass-bg); padding: 2rem; border-radius: 15px; border: 1px solid var(--glass-border);">
+                        <h4 style="color: var(--neon-pink);">IoT Security Assessment Framework</h4>
+                        <p>Building a comprehensive framework for IoT device security assessment, including firmware analysis, protocol fuzzing, and hardware-level security testing.</p>
+                        <div style="margin-top: 1rem;">
+                            <span style="background: rgba(255, 20, 147, 0.2); padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">Development</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="achievements" class="tab-content">
+                <h3>Lab Achievements & Recognition</h3>
+                <div style="margin-top: 2rem;">
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                        <div style="background: var(--glass-bg); padding: 2rem; border-radius: 15px; border: 1px solid var(--glass-border); text-align: center;">
+                            <div style="font-size: 3rem; margin-bottom: 1rem;">🏆</div>
+                            <h4 style="color: var(--neon-green);">CTF Championships</h4>
+                            <p>Multiple top-10 finishes in national and international Capture The Flag competitions, specializing in forensics and reverse engineering challenges.</p>
+                        </div>
+                        <div style="background: var(--glass-bg); padding: 2rem; border-radius: 15px; border: 1px solid var(--glass-border); text-align: center;">
+                            <div style="font-size: 3rem; margin-bottom: 1rem;">🔍</div>
+                            <h4 style="color: var(--neon-blue);">Vulnerability Discoveries</h4>
+                            <p>Discovered and responsibly disclosed multiple security vulnerabilities in popular software applications and web platforms.</p>
+                        </div>
+                        <div style="background: var(--glass-bg); padding: 2rem; border-radius: 15px; border: 1px solid var(--glass-border); text-align: center;">
+                            <div style="font-size: 3rem; margin-bottom: 1rem;">📚</div>
+                            <h4 style="color: var(--neon-pink);">Research Publications</h4>
+                            <p>Published research papers on digital forensics techniques and cybersecurity best practices in peer-reviewed journals and conferences.</p>
+                        </div>
+                        <div style="background: var(--glass-bg); padding: 2rem; border-radius: 15px; border: 1px solid var(--glass-border); text-align: center;">
+                            <div style="font-size: 3rem; margin-bottom: 1rem;">🎓</div>
+                            <h4 style="color: var(--neon-green);">Training & Workshops</h4>
+                            <p>Conducted cybersecurity training sessions and workshops for law enforcement agencies and corporate security teams.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <p style="font-size: 1.2rem; margin-bottom: 2rem; color: rgba(255, 255, 255, 0.9);">
+                    Ready to collaborate on cybersecurity projects or discuss digital forensics challenges? 
+                    I'm always open to connecting with fellow security professionals, researchers, and organizations 
+                    seeking expertise in digital investigations and threat analysis.
+                </p>
+                
+                <div class="contact-links">
+                    <a href="mailto:ragavendra.prasanna@example.com" class="contact-link">
+                        <div class="contact-icon">📧</div>
+                        <h3>Email</h3>
+                        <p>ragavendra.prasanna@example.com</p>
+                    </a>
+                    
+                    <a href="https://linkedin.com/in/ragavendra-prasanna" class="contact-link">
+                        <div class="contact-icon">💼</div>
+                        <h3>LinkedIn</h3>
+                        <p>Professional Network</p>
+                    </a>
+                    
+                    <a href="https://github.com/ragavendra-prasanna" class="contact-link">
+                        <div class="contact-icon">👨‍💻</div>
+                        <h3>GitHub</h3>
+                        <p>Code & Projects</p>
+                    </a>
+                    
+                    <a href="tel:+1234567890" class="contact-link">
+                        <div class="contact-icon">📱</div>
+                        <h3>Phone</h3>
+                        <p>+91 XXX XXX XXXX</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill Detail Modal -->
+    <div id="skillModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle">Skill Details</h2>
+            <div id="modalBody">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ragavendra Prasanna P.K. All rights reserved.</p>
+            <p style="margin-top: 0.5rem; opacity: 0.7;">Digital Forensic Analyst | Cybersecurity Professional | Threat Hunter</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

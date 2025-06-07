@@ -1,0 +1,6 @@
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Ragavendra Prasanna P.K. All rights reserved.</p>
+        <p style="margin-top: 0.5rem; opacity: 0.7;">Digital Forensic Analyst | Cybersecurity Professional | Threat Hunter</p>
+    </div>
+</footer>

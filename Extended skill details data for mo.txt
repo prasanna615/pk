@@ -1,0 +1,119 @@
+// Extended skill details data for modal functionality
+const skillDetails = {
+    'ftk-imager': {
+        title: 'FTK Imager',
+        content: 'Expert in using FTK Imager for creating forensic images of digital evidence. Proficient in bit-by-bit copying, hash verification, and maintaining evidence integrity. Experienced in imaging various storage devices including hard drives, SSDs, USB drives, and mobile devices.'
+    },
+    'autopsy': {
+        title: 'Autopsy Digital Forensics',
+        content: 'Advanced user of Autopsy digital forensics platform for comprehensive evidence analysis. Skilled in timeline analysis, keyword searching, registry analysis, and automated artifact recovery. Experienced in analyzing Windows, Linux, and mobile device images.'
+    },
+    'recuva': {
+        title: 'Recuva File Recovery',
+        content: 'Proficient in using Recuva for deleted file recovery and data carving operations. Experienced in recovering files from damaged or corrupted storage media and understanding file system structures.'
+    },
+    'disk-imaging': {
+        title: 'Disk Imaging & Cloning',
+        content: 'Expert in creating forensic disk images using various tools and techniques. Skilled in bit-for-bit copying, write-blocking, and maintaining evidence integrity throughout the imaging process.'
+    },
+    'hash-verification': {
+        title: 'Hash Verification',
+        content: 'Proficient in cryptographic hash functions (MD5, SHA-1, SHA-256) for evidence integrity verification. Experienced in creating and verifying hash values for digital evidence authentication.'
+    },
+    'chain-of-custody': {
+        title: 'Chain of Custody',
+        content: 'Expert in maintaining proper chain of custody documentation for digital evidence. Skilled in evidence handling, documentation, storage, and legal requirements for court proceedings.'
+    },
+    'steganography': {
+        title: 'Steganography & Steganalysis',
+        content: 'Advanced knowledge in detecting and analyzing hidden data within digital media. Proficient in various steganographic techniques and tools for uncovering covert communications.'
+    },
+    'nmap': {
+        title: 'Nmap Network Discovery',
+        content: 'Expert in network reconnaissance using Nmap for port scanning, service detection, and network mapping. Proficient in advanced scanning techniques, NSE scripting, and interpreting scan results for vulnerability assessment and penetration testing.'
+    },
+    'wireshark': {
+        title: 'Wireshark Protocol Analysis',
+        content: 'Advanced packet analysis using Wireshark for network forensics and security analysis. Skilled in protocol decoding, traffic analysis, malware communication detection, and network troubleshooting. Experienced in creating custom filters and analyzing complex network scenarios.'
+    },
+    'burp-suite': {
+        title: 'Burp Suite Professional',
+        content: 'Expert in web application security testing using Burp Suite. Proficient in vulnerability scanning, manual testing techniques, custom extension development, and comprehensive web application assessments.'
+    },
+    'metasploit': {
+        title: 'Metasploit Framework',
+        content: 'Advanced penetration testing using Metasploit for exploitation and post-exploitation activities. Skilled in payload generation, exploit development, and comprehensive security assessments.'
+    },
+    'hydra': {
+        title: 'Hydra Password Cracking',
+        content: 'Proficient in using Hydra for password security assessments and brute-force attacks. Experienced in testing authentication mechanisms across various protocols and services.'
+    },
+    'john-the-ripper': {
+        title: 'John the Ripper',
+        content: 'Expert in password cracking and security assessment using John the Ripper. Skilled in dictionary attacks, brute-force techniques, and custom rule creation for password policy testing.'
+    },
+    'sqlmap': {
+        title: 'SQLmap Injection Testing',
+        content: 'Advanced SQL injection testing using SQLmap for database security assessments. Proficient in automated injection techniques, database enumeration, and exploit development.'
+    },
+    'social-engineering': {
+        title: 'Social Engineering Assessment',
+        content: 'Experienced in social engineering techniques for security awareness and assessment. Skilled in phishing campaigns, human psychology analysis, and security awareness training.'
+    },
+    'wazuh-siem': {
+        title: 'Wazuh SIEM',
+        content: 'Experienced in deploying and managing Wazuh SIEM for security monitoring and incident response. Proficient in rule creation, log analysis, threat detection, and compliance monitoring. Skilled in integrating with other security tools and creating custom dashboards.'
+    },
+    'splunk': {
+        title: 'Splunk Enterprise Security',
+        content: 'Advanced Splunk administration and security analysis. Proficient in SPL query language, dashboard creation, alert configuration, and comprehensive log analysis for threat detection.'
+    },
+    'openvas': {
+        title: 'OpenVAS Vulnerability Scanner',
+        content: 'Expert in vulnerability assessment using OpenVAS for comprehensive security scanning. Skilled in scan configuration, result analysis, and vulnerability management workflows.'
+    },
+    'vulnerability-assessment': {
+        title: 'Vulnerability Assessment',
+        content: 'Comprehensive vulnerability assessment methodologies and tools. Experienced in identifying, analyzing, and prioritizing security vulnerabilities across various systems and applications.'
+    },
+    'threat-hunting': {
+        title: 'Threat Hunting',
+        content: 'Advanced threat hunting techniques for proactive security monitoring. Skilled in behavioral analysis, IOC development, and advanced persistent threat detection using various tools and methodologies.'
+    },
+    'incident-response': {
+        title: 'Incident Response',
+        content: 'Expert in incident response procedures and digital forensics. Experienced in evidence collection, malware analysis, timeline reconstruction, and comprehensive incident documentation.'
+    },
+    'log-analysis': {
+        title: 'Log Analysis',
+        content: 'Advanced log analysis techniques for security monitoring and forensic investigations. Proficient in parsing various log formats, correlation analysis, and anomaly detection.'
+    },
+    'python': {
+        title: 'Python Security Programming',
+        content: 'Proficient in Python for cybersecurity automation, forensics tools development, and security script creation. Experienced in libraries like Scapy for packet manipulation, Volatility for memory analysis, and custom tool development for digital investigations.'
+    },
+    'bash': {
+        title: 'Bash Scripting',
+        content: 'Expert in Bash scripting for automation and system administration. Skilled in creating complex scripts for security tasks, log analysis, and automated incident response workflows.'
+    },
+    'powershell': {
+        title: 'PowerShell Automation',
+        content: 'Advanced PowerShell scripting for Windows security and administration. Proficient in Active Directory management, security automation, and incident response scripting.'
+    },
+    'sql': {
+        title: 'SQL Database Security',
+        content: 'Expert in SQL database security, query optimization, and forensic analysis. Skilled in database hardening, audit log analysis, and security assessment of database systems.'
+    },
+    'regex': {
+        title: 'Regular Expressions',
+        content: 'Advanced regular expression usage for pattern matching, log analysis, and data extraction. Proficient in creating complex patterns for security analysis and forensic investigations.'
+    },
+    'automation': {
+        title: 'Security Automation',
+        content: 'Expert in security process automation and orchestration. Skilled in creating automated workflows for incident response, threat detection, and security monitoring.'
+    },
+    'apis': {
+        title: 'API Security',
+        content: 'Comprehensive API security assessment and testing. Experienced in REST/SOAP API testing, authentication bypass, and API vulnerability assessment.'
+    }
+};
