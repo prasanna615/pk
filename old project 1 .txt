@@ -1,0 +1,22 @@
+Enhanced Session Password Security System – Key Points
+Objective: Prevents shoulder surfing attacks using dynamic password patterns.
+
+How It Works: Users select a pattern-based password during registration; each login presents a randomized character grid to ensure unique session passwords.
+
+Security Benefit: Resistant to direct observation; passwords change each session.
+
+Technology: Implemented using JavaScript.
+
+Applications: Secure authentication for web apps, ATMs, and mobile devices.
+
+
+
+Tools & Languages Used
+The project is implemented using JavaScript, which is primarily responsible for creating the randomized password grid and handling user interactions.
+
+Why JavaScript?
+Dynamic UI Handling: JavaScript enables the generation of a changing password grid at each login, making shoulder surfing attacks ineffective.
+
+Client-Side Execution: Since JavaScript runs in the browser, it allows real-time password pattern validation without unnecessary server requests.
+
+Security Enhancements: The use of hashed positions within the randomized grid ensures that the password cannot be easily predicted or intercepted.

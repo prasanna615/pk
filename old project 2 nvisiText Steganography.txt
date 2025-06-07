@@ -1,0 +1,58 @@
+nvisiText Steganography
+Steganography Banner Python License
+
+InvisiText is a Python-based steganography tool that allows you to seamlessly hide secret messages within images using the Least Significant Bit (LSB) technique. This project provides an intuitive graphical interface for encoding and decoding hidden data.
+
+🔍 What is Steganography?
+Steganography is the practice of concealing information within other non-secret data or a physical object to avoid detection. Unlike encryption, which makes data unreadable, steganography hides the existence of the secret message altogether.
+
+✨ Features
+Message Encoding: Hide text messages within PNG or JPG images
+Message Decoding: Extract hidden messages from previously encoded images
+User-Friendly Interface: Simple GUI with file dialogs for easy image and text selection
+Minimal Image Alteration: Uses LSB technique to ensure minimal visual changes to carrier images
+Cross-Platform: Works on Windows, macOS, and Linux
+🛠️ Installation
+Prerequisites
+Python 3.6 or higher
+pip package manager
+Setup
+Clone the repository:
+
+git clone https://github.com/prasanna615/invisitext-steganography.git
+cd invisitext-steganography
+Install dependencies:
+
+pip install -r requirements.txt
+🚀 Usage
+Running the Application
+Execute the main Python file to start the application:
+
+python main.py
+Encoding a Message
+Click the "Encode" button
+Select an image file (PNG or JPG) using the file dialog
+Enter your secret message in the text field
+Choose a save location for the output image
+The encoded image will be saved with your hidden message
+Decoding a Message
+Click the "Decode" button
+Select an image containing a hidden message
+The secret message will be displayed on the screen
+🔒 Security Considerations
+The LSB method provides basic steganographic hiding but is not cryptographically secure
+For sensitive information, consider encrypting your message before encoding it
+Large messages may cause noticeable changes in the carrier image
+📝 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+👨‍💻 Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+Fork the repository
+Create your feature branch (git checkout -b feature/amazing-feature)
+Commit your changes (git commit -m 'Add some amazing feature')
+Push to the branch (git push origin feature/amazing-feature)
+Open a Pull Request
+📧 Contact
+Project Link: https://github.com/prasanna615/invisitext-steganography
